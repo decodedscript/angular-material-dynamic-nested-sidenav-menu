@@ -1,0 +1,29 @@
+.vertical-divider {
+    border-top-width: 0;
+
+    height          : 64px;
+    background-color: rgb(5, 132, 206);
+    width           : 2px;
+}
+
+.header-container {
+
+    display: flex;
+}
+
+.header-container .header-page-title {
+    flex           : 0 0 40%;
+    padding-left   : 16px;
+    display: flex;
+    align-items    : center;
+    justify-content: left;
+}
+
+.header-container .header-user-profile {
+    flex            : 0 0 calc(60% - 2px);
+  
+    padding-right   : 16px; 
+    display: flex;
+    align-items    : center;
+    justify-content: right;
+}
